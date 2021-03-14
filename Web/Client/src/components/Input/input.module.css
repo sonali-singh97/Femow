@@ -1,0 +1,42 @@
+.form__element-container{
+margin-bottom: 1.6rem;
+max-width: 30rem;
+}
+
+::placeholder {
+    font-size: 16px;
+    font-weight: 400;
+    color:#828282;
+}
+
+
+
+.form__label{
+    display:block;
+color:#333;
+font-size:1.6rem;
+font-weight: 500;
+}
+
+.form__label.required  ::after{
+position:relative;
+content:"*";
+}
+
+.form__input-field{
+border:1px solid #828282;
+border-radius: 0.5rem;
+color:#333;
+font-size: 16px;
+width:100%;
+font-weight: 400;
+height:4.4rem;
+padding:0 20px;
+margin:0;
+}
+
+.form__input-field:focus{
+    box-shadow: 0 0 0 4px rgba(171,29,121,0.15);
+    outline:none;
+    border-color:rgb(171, 29, 121);
+}
