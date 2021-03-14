@@ -8,6 +8,7 @@ body {
 }
 
 #background-wrap {
+	background: linear-gradient(to bottom , #f8f6f3  , #ffebf3  );
     bottom: 0;
 	left: 0;
 	position: fixed;
@@ -211,9 +212,9 @@ body {
 	-moz-border-radius: 50%;
 	border-radius: 50%;
 	
-    -webkit-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	-moz-box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
-	box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2), inset 0px 10px 30px 5px rgba(255, 255, 255, 1);
+    -webkit-box-shadow: 0 20px 30px #ffebf3b0, inset 0px 10px 30px 5px rgba(171, 29, 121, 1);
+	-moz-box-shadow: 0 20px 30px #ffebf3b0, inset 0px 10px 30px 5px rgba(171, 29, 121, 1);
+	box-shadow: 0 20px 30px #ffebf3b0, inset 0px 10px 30px 5px rgba(171, 29, 121, 1);
 	
     height: 200px;
 	position: absolute;
