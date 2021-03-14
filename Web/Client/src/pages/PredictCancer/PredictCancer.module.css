@@ -1,0 +1,70 @@
+.main{
+    background: linear-gradient(to bottom , #f8f6f3  , #ffebf3  );
+}
+
+.card{
+border-radius: 5px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.301);
+padding:2rem;
+margin:2rem;
+color:#333;
+text-align: center;
+min-height: 15rem;
+
+}
+.loader-div{
+    padding-top: 3rem;
+    
+}
+.form{
+    margin-bottom: 4rem;
+}
+
+.button{
+    display:inline-block;
+    border-radius: 5px;
+    padding:5px 15px;
+    margin-top: 1rem;
+    background-color: #AB1D79;
+    color:#fff;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.label{
+     display:block;
+color:#333;
+font-size:1.8rem;
+font-weight: 500;
+margin-bottom: 2rem;
+}
+
+.input{
+    display:inline-block;
+    outline:none;
+    color:#333;
+    font-size: 16px;
+    width:100%;
+    font-weight: 400;
+    height:4.4rem;
+   padding-left:10rem;
+   cursor:pointer;
+    margin:0;
+}
+
+
+
+.img-div, .form-div{
+    padding:3rem;
+    text-align: center;
+}
+
+.img-div img{
+    max-width: 100%;
+}
+
+.prediction-heading{
+    text-align: center;
+padding: 3rem;
+margin-bottom: 2rem;
+}
